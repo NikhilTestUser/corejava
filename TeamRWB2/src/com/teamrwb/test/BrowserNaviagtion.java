@@ -12,6 +12,7 @@ public class BrowserNaviagtion {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.get("http://toolsqa.com");
+
 		driver.manage().window().maximize();
 		driver.navigate().back();
 	}
