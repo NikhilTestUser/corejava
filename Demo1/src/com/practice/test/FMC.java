@@ -15,9 +15,9 @@ public class FMC {
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 40, 52, 63, 45, 2 };
-		int length = arr.length;
-		System.out.println(getMax(arr, length));
-		System.out.println(getMin(arr, length));
+		int n = arr.length;
+		System.out.println(getMax(arr, n));
+		System.out.println(getMin(arr, n));
 
 	}
 
